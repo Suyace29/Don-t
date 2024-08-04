@@ -1,0 +1,53 @@
+body {
+    background-color: #f5f5f5; /* Light grey background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    max-width: 90%; /* Responsive max width */
+    max-height: 90%; /* Responsive max height */
+    overflow: hidden; /* Hide overflow content */
+}
+
+h1 {
+    color: #ff5722; /* Vibrant color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+#message {
+    color: #555;
+    font-size: 18px; /* Larger font size for better readability */
+    margin-bottom: 20px; /* Space between text and image */
+}
+
+#hidden-message {
+    color: #4caf50; /* Vibrant green color */
+    font-size: 18px; /* Font size for subtitle */
+    margin-bottom: 20px; /* Space between text and image */
+    font-weight: bold; /* Bold text */
+    display: none; /* Hide initially */
+}
+
+.image-container {
+    margin: 0;
+}
+
+.image-container img {
+    width: 100%; /* Adjust image width to container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 500px; /* Limit height to prevent scrolling */
+    border-radius: 10px; /* Rounded corners for the image */
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
